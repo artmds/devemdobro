@@ -140,6 +140,12 @@ main .cartao-pokemon .tipos{
 
 }
 
+.tipo-voador{
+    background: linear-gradient(180deg, rgba(0,182,255,1) 59%, rgba(196,196,196,1) 60%, rgba(196,196,196,1) 100%);
+    padding: 5px;
+    border-radius: 5px;
+}
+
 .tipo-agua{
     background-color: rgb(55, 130, 228);
     padding: 5px;
