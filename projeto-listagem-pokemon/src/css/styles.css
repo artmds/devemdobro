@@ -13,12 +13,12 @@ body{
     max-width: 1280px;
     margin: 0 auto;
 
-    background-color: #747474;
+    background-color: antiquewhite;
     color: #2a2a2a;
 }
 
 body.modo-escuro{
-    background: #2a2a2a;
+    background-color: #2a2a2a;
     color: white;
 }
 
@@ -28,6 +28,10 @@ header{
     justify-content: space-between;
     padding: 1.5rem
     
+}
+
+.modo-escuro header{
+    background-color: #1f1f1f;
 }
 
 header .logo, 
@@ -54,7 +58,6 @@ ul{
 
 
 main{
-    background-color: antiquewhite;
     padding: 25px;
 }
 
@@ -84,7 +87,7 @@ main{
 }
 
 .modo-escuro .cartao-pokemon{
-    background-color: #cfd3eb;
+    background-color: #989ec0;
 }
 
 .cartao-pokemon .infos{
